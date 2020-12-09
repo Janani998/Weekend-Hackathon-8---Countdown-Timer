@@ -2,7 +2,6 @@ import React, { Component, useState, useEffect } from "react";
 import "../styles/App.css";
 
 const App = () => {
-  // write your code here
   const [remainingTime, setRemainingTime] = useState(0);
 
   const handleKeyDown = (event) => {
